@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QuerySelector</title>
+</head>
+<body>
+	<!-- <p class="topic">HTML</p>
+	<p class="topic">CSS</p>
+	<p class="topic">JS</p>
+	<p class="topic">BS</p>
+	<ul>
+		<li>AEC</li>
+		<li>ACET</li>
+		<li>ACOE</li>
+	</ul>
+	<script type="text/javascript">
+		let leku=document.querySelector('.topic');//class selector
+		leku.innerHTML='<span>Hyper Text Markup Language</span>';
+		let lek=document.querySelector('li');//tag selector
+		lek.innerText='<span>Aditya Engineering College</span>';
+	</script>
+ -->
+ <h1>The Document Object</h1>
+<h2>The querySelectorAll() Method</h2>
+<p>Add a background color all elements with class="example":</p>
+<h2 class="example">A heading</h2>
+<p class="example">A paragraph.</p>
+<p class="example">lekhana.</p> 
+<script type="text/javascript">
+	const nodeList = document.querySelectorAll(".example");
+for (let i = 0; i < nodeList.length; i++) {
+  nodeList[i].style.backgroundColor = "deeppink";
+  nodeList[i].style.color='white';
+  nodeList[i].style.fontSize='50px';
+}
+</script>
+</body>
+</html>

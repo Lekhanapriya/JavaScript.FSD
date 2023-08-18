@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>introduction</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var obj=[{
+			'name':'leku',
+			'rollno':'L2',
+			'college':'AEC',
+			'branch':'ECE'
+		},
+		{
+			'name':'leela',
+			'rollno':'100',
+			'college':'AU',
+			'branch':'Msc'
+		},
+		{
+			'name':'pav',
+			'rollno':'O7',
+			'college':'AEC',
+			'branch':'ECE'
+		},
+		{
+			'name':'rama',
+			'rollno':'111',
+			'college':'BVC',
+			'branch':'CSE'
+		}]
+		for(i=0;i<obj.length;i++)
+		{
+			for (var key in obj[i]){
+				document.write(obj[i][key])
+				document.write("<br>");
+			}
+		}
+		// for(i=0; i < obj.length; i++)
+		// {
+		// 	document.write(i+1,".",obj[i].name," ",obj[i].rollno," ",obj[i].branch," ",obj[i].college);
+		// 	document.write("<br>");
+		// }
+	</script>
+
+</body>
+</html>

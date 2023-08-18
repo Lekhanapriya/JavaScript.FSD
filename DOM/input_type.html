@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Type</title>
+	<style>
+table, td {
+  border: 0px solid deeppink;
+}
+</style>
+</head>
+<body>
+	<!-- <input type="text" name="" id="ins_id">
+	<script type="text/javascript">
+		 let ins=document.getElementById('ins_id');
+		 ins.value='lekhana';
+		 ins.style.color='blue';
+		let ins=document.getElementById('ins_id');
+	</script> -->
+	<!-- <p class="topic">HTML</p>
+	<p class="topic">CSS</p>
+	<p class="topic">JS</p>
+	<p class="topic">BS</p>
+	<script type="text/javascript">
+		let leku=document.getElementsByClassName('topic');
+        console.log(leku);
+        leku[0].innerHTML='lekhana';
+        leku[0].style.color='blue';
+        leku[1].innerHTML='leela';
+	</script> -->
+	<!-- <ul>
+		<li>AEC</li>
+		<li>ACET</li>
+		<li>ACOE</li>
+	</ul>
+	<script type="text/javascript">
+		let leelu=document.getElementsByTagName('li');
+		leelu[0].innerHTML='Aditya Engineering College';
+		leelu[0].style.color='green';
+		leelu[0].style.fontSize='50px';
+	</script>-->
+	<table id="myTable">
+		<tr>
+			<td>cell 1</td>
+            <td>cell 2</td>
+            <td>cell 3</td>
+        </tr>
+        <tr>
+            <td>cell 4</td>
+            <td>cell 5</td>
+            <td>cell 6</td>
+        </tr>
+        <tr>
+            <td>cell 7</td>
+            <td>cell 8</td>
+            <td>cell 9</td>
+        </tr>
+    </table>
+    <script type="text/javascript"> 
+    	var x= document.getElementsByTagName("td");
+    	for (i = 0; i < x.length; i++) {
+    	x[i].innerHTML=x.length-i;
+        x[i].style.border='2px solid lightgreen'; 
+
+    }
+</script>
+</body>
+</html>
